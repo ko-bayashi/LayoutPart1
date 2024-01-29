@@ -1,0 +1,50 @@
+@charset "UTF-8";
+.up {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.up--left {
+  width: 300px;
+  background: #ff7b7b;
+}
+
+.up--main {
+  background: #7b86ff;
+  flex: 1;
+}
+
+.up--right {
+  width: 300px;
+  background: #fff27b;
+}
+
+.down {
+  display: flex;
+}
+
+.down--left {
+  background: #7bff91;
+  flex: 1;
+}
+
+.down--mainleft {
+  width: 400px;
+  background: #ff7be2;
+}
+
+.down--mainright {
+  width: 400px;
+  background: #ffc67b;
+}
+
+.down--right {
+  background: #7bf2ff;
+  flex: 1;
+}
+
